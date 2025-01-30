@@ -1,0 +1,13 @@
+IocaI ScreenGui = lnstance.new ("ScreenGui")
+IocaI frame =lnstance.new("Frame")
+IocaI ato = lnstance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+frame.Name = "椒脚本"
+frame.Parent = ScreenGui
+frame.BackgrouhdColor3 = Color3.formRGB(248，248，248)
+ frame.Position = UDim2.new(0.326148063，0，29880476，0)
+ frame.Size = UDim2.new(0，392，0，500)
+ frame.Active = true
+ frame.Draggable = true
